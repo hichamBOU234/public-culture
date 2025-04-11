@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Arabic';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+  }
+
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+.font-arabic {
+  font-family: 'Noto Naskh Arabic', serif;
+}
